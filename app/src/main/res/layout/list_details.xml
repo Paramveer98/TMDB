@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Movie name"
+        android:textSize="24dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/synopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/other"
+        android:text="Synopsis"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/yor"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:text="yor"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/yor"
+        android:text="other"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/yor"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Rating"
+        android:textSize="24dp" />
+
+
+
+
+</RelativeLayout>
